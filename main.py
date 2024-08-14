@@ -1,4 +1,4 @@
-def valid(s):
+def valid(s: str) -> bool:
     stack = []
     for char in s:
         if char in '([{':
